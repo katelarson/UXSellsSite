@@ -70,9 +70,7 @@
 			}
 		}
 
-		#header + & {
-			margin-top: (_size(header, default) * -1);
-		}
+		
 
 		body.is-loading & {
 			&:after {
