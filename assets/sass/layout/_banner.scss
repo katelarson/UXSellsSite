@@ -44,8 +44,10 @@
 		}
 
 		.content {
-			@include padding($padding * 1.25, 0, (_size(header, default) + 0.25, 0, 0, 0));
-			text-align: center;
+			/*
+            @include padding($padding * 1.25, 0, (_size(header, default) + 0.25, 0, 0, 0));
+			*/
+            text-align: center;
 			position: relative;
 			z-index: 1;
 
