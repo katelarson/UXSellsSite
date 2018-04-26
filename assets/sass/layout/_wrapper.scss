@@ -30,15 +30,10 @@
 
 			> header {
 				@include padding($padding, 0);
-				text-align: center;
+				text-align: left;
 				cursor: default;
 
-				> * {
-					width: _size(inner) * 0.625;
-					max-width: calc(100% - #{$padding});
-					margin-left: auto;
-					margin-right: auto;
-				}
+				
 
 				> :last-child {
 					margin-bottom: _size(element-margin);
@@ -47,10 +42,7 @@
 				&.accent1 {
 					@include color(accent1);
 
-					& + .inner {
-						padding-top: $padding;
-					}
-
+					
 					& + .tabs {
 						> .titles {
 							background-color: _palette(accent1, bg);
@@ -475,3 +467,4 @@
 		}
 
 	}
+

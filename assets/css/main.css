@@ -1718,7 +1718,7 @@
 		a:hover {
 			text-decoration: none;
 			border-bottom-color: transparent;
-			color: #1bcea5 !important;
+			color: #006666 !important;
 		}
 
 			a:hover strong {
@@ -2045,8 +2045,8 @@
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 3px #1bcea5;
-		color: #1bcea5 !important;
+		box-shadow: inset 0 0 0 3px #006666;
+		color: #006666 !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2070,7 +2070,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #1bcea5;
+			background-color: #006666;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2276,8 +2276,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #1bcea5;
-			box-shadow: inset 0 0 0 1px #1bcea5;
+			border-color: #006666;
+			box-shadow: inset 0 0 0 1px #006666;
 		}
 
 	.select-wrapper:before {
@@ -2296,15 +2296,15 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #1bcea5;
-		border-color: #1bcea5;
+		background-color: #006666;
+		border-color: #006666;
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #1bcea5;
-		box-shadow: 0 0 0 1px #1bcea5;
+		border-color: #006666;
+		box-shadow: 0 0 0 1px #006666;
 	}
 
 	::-webkit-input-placeholder {
@@ -2364,8 +2364,8 @@
 			}
 
 	.icon.major:before {
-		box-shadow: inset 0 0 0 3px #1bcea5;
-		color: #1bcea5;
+		box-shadow: inset 0 0 0 3px #006666;
+		color: #006666;
 	}
 
 /* Image */
@@ -3313,7 +3313,7 @@
 						left: 0;
 						width: 100%;
 						height: 3px;
-						background-color: #1bcea5;
+						background-color: #006666;
 					}
 
 					#header > nav > ul > li.current > a {
@@ -3321,7 +3321,7 @@
 					}
 
 					#header > nav > ul > li.active > a {
-						color: #1bcea5;
+						color: #006666;
 					}
 
 			.dropotron {
@@ -3365,7 +3365,7 @@
 					}
 
 					.dropotron li.active > a {
-						color: #1bcea5;
+						color: #006666;
 					}
 
 				.dropotron a {
@@ -3376,7 +3376,7 @@
 				}
 
 					.dropotron a:active, .dropotron a:hover, .dropotron a:focus {
-						color: #1bcea5;
+						color: #006666;
 					}
 
 		#header.reveal {
@@ -3745,7 +3745,7 @@
 			}
 
 			#wrapper > .main > header.accent1 {
-				background-color: #1bcea5;
+				background-color: #006666;
 				color: rgba(255, 255, 255, 0.75);
 			}
 
@@ -3754,7 +3754,7 @@
 				}
 
 				#wrapper > .main > header.accent1 a {
-					color: #1bcea5;
+					color: #006666;
 				}
 
 				#wrapper > .main > header.accent1 strong, #wrapper > .main > header.accent1 b {
@@ -3815,7 +3815,7 @@
 					#wrapper > .main > header.accent1 .button.special {
 						background-color: #ffffff;
 						box-shadow: none;
-						color: #1bcea5 !important;
+						color: #006666 !important;
 					}
 
 						#wrapper > .main > header.accent1 input[type="submit"].special:hover,
@@ -3873,7 +3873,7 @@
 				#wrapper > .main > header.accent1 input[type="radio"]:checked + label:before {
 					background-color: #ffffff;
 					border-color: #ffffff;
-					color: #1bcea5;
+					color: #006666;
 				}
 
 				#wrapper > .main > header.accent1 input[type="checkbox"]:focus + label:before,
@@ -3940,11 +3940,11 @@
 				}
 
 				#wrapper > .main > header.accent1 + .tabs > .titles {
-					background-color: #1bcea5;
+					background-color: #006666;
 				}
 
 					#wrapper > .main > header.accent1 + .tabs > .titles:before {
-						background-color: #1bcea5;
+						background-color: #006666;
 					}
 
 					#wrapper > .main > header.accent1 + .tabs > .titles > .title {
@@ -3952,7 +3952,7 @@
 					}
 
 						#wrapper > .main > header.accent1 + .tabs > .titles > .title.active {
-							color: #1bcea5;
+							color: #006666;
 							background-color: #ffffff;
 							box-shadow: none;
 						}
@@ -3967,7 +3967,7 @@
 				}
 
 				#wrapper > .main > header.accent2 a {
-					color: #1bcea5;
+					color: #006666;
 				}
 
 				#wrapper > .main > header.accent2 strong, #wrapper > .main > header.accent2 b {
@@ -4248,7 +4248,7 @@
 				}
 
 					#wrapper > .main > .tabs > .titles > .title.active {
-						box-shadow: 0 3px 0 0 #1bcea5;
+						box-shadow: 0 3px 0 0 #006666;
 						-moz-animation: tab-title 0.5s ease forwards;
 						-webkit-animation: tab-title 0.5s ease forwards;
 						-ms-animation: tab-title 0.5s ease forwards;
@@ -4269,7 +4269,7 @@
 				}
 
 		#wrapper > .main.accent1 {
-			background-color: #1bcea5;
+			background-color: #006666;
 			color: rgba(255, 255, 255, 0.75);
 		}
 
@@ -4278,7 +4278,7 @@
 			}
 
 			#wrapper > .main.accent1 a {
-				color: #1bcea5;
+				color: #006666;
 			}
 
 			#wrapper > .main.accent1 strong, #wrapper > .main.accent1 b {
@@ -4339,7 +4339,7 @@
 				#wrapper > .main.accent1 .button.special {
 					background-color: #ffffff;
 					box-shadow: none;
-					color: #1bcea5 !important;
+					color: #006666 !important;
 				}
 
 					#wrapper > .main.accent1 input[type="submit"].special:hover,
@@ -4397,7 +4397,7 @@
 			#wrapper > .main.accent1 input[type="radio"]:checked + label:before {
 				background-color: #ffffff;
 				border-color: #ffffff;
-				color: #1bcea5;
+				color: #006666;
 			}
 
 			#wrapper > .main.accent1 input[type="checkbox"]:focus + label:before,
@@ -4473,7 +4473,7 @@
 			}
 
 			#wrapper > .main.accent2 a {
-				color: #1bcea5;
+				color: #006666;
 			}
 
 			#wrapper > .main.accent2 strong, #wrapper > .main.accent2 b {
@@ -5043,7 +5043,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #1bcea5;
+		background: #006666;
 		box-shadow: none;
 		color: rgba(255, 255, 255, 0.75);
 		height: 100%;

@@ -12,7 +12,7 @@
 		margin: 0 0 _size(element-margin) 0;
 
 		> * {
-			@include vendor('flex-grow', '1');
+			@include vendor('flex-grow', '2');
 			@include vendor('flex-shrink', '1');
 			width: 100%;
 		}
@@ -45,15 +45,8 @@
 			&:last-child {
 				text-align: left;
 			}
-		}
-
-		> .image {
-			margin: 0 4rem;
-
-			img {
-				border-radius: 100%;
-				width: 100%;
-			}
+		
+            
 		}
 
 		@include breakpoint(medium) {
@@ -74,16 +67,7 @@
 				}
 			}
 
-			> .image {
-				@include vendor('order', '1');
-				margin: 0 0 (_size(element-margin) * 1.5) 0;
-				width: 100%;
-
-				img {
-					width: 18rem;
-					margin-left: auto;
-					margin-right: auto;
-				}
+			
 			}
 		}
 
