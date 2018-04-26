@@ -113,6 +113,6 @@
 
 		#navPanel {
 			@include vendor('transform', 'translateX(0)');
-			visibility: visible;
+			visibility: hidden;
 		}
 	}
