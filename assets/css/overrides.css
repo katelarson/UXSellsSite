@@ -1,0 +1,71 @@
+body {
+    padding-top: 0;
+}
+
+#banner .content {
+    padding:1rem 2.5rem ;
+}
+
+#wrapper > .main > header {
+    padding: 4rem 0;
+}
+
+#wrapper > .main > header + .tabs.accent1 > .titles,
+#wrapper > .main > header + .tabs.accent1 > .titles:before {
+    background-color: #006666;
+}
+
+#wrapper > .main > header + .tabs.accent1 > .titles > .title {
+    color: #ffffff;
+}
+
+#wrapper > .main > header + .tabs.accent1 > .titles > .title.active {
+    color: #006666;
+    background-color: #ffffff;
+    box-shadow: none;
+}
+
+#wrapper > .main > header + .tabs.accent2 > .titles ,
+#wrapper > .main > header + .tabs.accent2 > .titles:before {
+    background-color: #735bb9;
+}
+
+#wrapper > .main > header + .tabs.accent2 > .titles > .title {
+    color: #ffffff;
+}
+
+#wrapper > .main > header + .tabs.accent2 > .titles > .title.active {
+    color: #735bb9;
+    background-color: #ffffff;
+    box-shadow: none;
+}
+
+#footer {
+    padding: 0;
+}
+
+#wrapper > .main > .tabs > .panels > .panel {
+    padding-bottom: 0;
+}
+
+/* new classes */
+.lead {
+    color: #3b3b3b;
+    font-size: 1.35rem;
+}
+
+.sr-only {
+    display: none;
+}
+
+@media screen and (min-width: 1025px) {
+    .lead {
+        margin: 0 0 .25rem 0;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .lead {
+        font-size: 1.25rem;
+    }
+}
