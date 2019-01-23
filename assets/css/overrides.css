@@ -3,7 +3,12 @@ body {
 }
 
 #banner .content {
-    padding:1rem 2.5rem ;
+    padding:7rem 2.5rem 1rem 2.5rem;
+}
+
+#wrapper {
+    /* fix horizontal scroll (non-desktop breakpoints) due to hidden element */
+    overflow-x: hidden;
 }
 
 #wrapper > .main > header {
@@ -58,7 +63,12 @@ body {
     display: none;
 }
 
+/* DESKTOP */
 @media screen and (min-width: 1025px) {
+    #banner .content {
+        padding:11rem 2.5rem 1rem 2.5rem;
+    }
+
     .lead {
         margin: 0 0 .25rem 0;
     }
