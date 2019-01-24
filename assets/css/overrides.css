@@ -16,7 +16,7 @@ body {
 }
 
 #wrapper > .main > header.thin {
-    padding: 6rem 0 2rem 0;
+    padding: 4.5rem 0 .5rem 0;
 }
 
 #wrapper > .main > header + .tabs.accent1 > .titles,
