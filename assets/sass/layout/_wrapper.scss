@@ -46,7 +46,7 @@
 					& + .tabs {
 						> .titles {
 							background-color: _palette(accent1, bg);
-
+/*
 							&:before {
 								background-color: _palette(accent1, bg);
 							}
@@ -63,6 +63,7 @@
 						}
 					}
 				}
+                            */
 
 				&.accent2 {
 					@include color(accent2);
