@@ -15,6 +15,10 @@ body {
     padding: 4rem 0;
 }
 
+#wrapper > .main > header.thin {
+    padding: 4.5rem 0 .5rem 0;
+}
+
 #wrapper > .main > header + .tabs.accent1 > .titles,
 #wrapper > .main > header + .tabs.accent1 > .titles:before {
     background-color: #006666;
